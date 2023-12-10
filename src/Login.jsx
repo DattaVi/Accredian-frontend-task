@@ -45,6 +45,42 @@ function Login(props){
     }
 }
 
+//for the backend api, this is the code to make post requests
+
+//       function handleSubmit(){
+//         if(username=="" && password==""){
+//           window.alert("You left all the fields empty, please enter all the values as directed.")
+//         }
+//         else if(username=="" || password==""){
+//             if(username==""){
+//                 window.alert("You have to enter a username to continue")
+//             }
+//             if(password==""){
+//                 window.alert("You have to enter a password to continue")
+//             }
+
+//         }
+//         else if(password.length<8){
+//           window.alert("The password and the confirm password should be atleast 8 characters long!")
+//     }
+
+//     else {
+//         // Send a POST request to the login endpoint
+//         axios
+//           .post("http://localhost:4000/login", { username, password })
+//           .then((response) => {
+//             window.alert(response.data);
+//             props.action2();
+//           })
+//           .catch((error) => {
+//             console.error("Login failed:", error);
+//             window.alert("Login failed. Please check your credentials.");
+//           });
+//       }
+
+// }
+
+    
     return(
 <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh", backgroundColor: "rgba(255, 255, 255, 0.5)",
         backgroundImage: "url(https://upload.wikimedia.org/wikipedia/commons/8/88/Kotagiri%2CNilgiris.jpg)"}}>
